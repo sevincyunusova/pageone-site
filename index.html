@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="https://mms.img.susercontent.com/vn-11134216-7r98o-lxnhd0xt4r159a">
+
+    <title>pageone</title>
+</head>
+
+<body>
+    <div class="nav sticky z-50 top-0 bg-[#fff] pb-3">
+        <div class="navbar  flex justify-between px-6 pt-5 ">
+            <div class="nav-logo flex">
+                <a href="#home" class="flex text-2xl font-bold ml-[30px]">PageOne</a>
+                <span class="flex text-red-600 text-2xl font-bold">.</span>
+            </div>
+
+            <!-- TABLET MODDA ICON GORUNMELIDIR LIST YOX, OLMUR -->
+
+            <div class="nav-menu flex px-6  ">
+                <div class="menu-icon flex ml-auto block md:hidden">
+                    <span class="material-symbols-outlined text-4xl! cursor-pointer hover:scale-120 duration-250">
+                        menu
+                    </span>
+                </div>
+
+                <div class="nav-menu-list flex justify-between max-w-screen px-6 pt-2 hidden md:block ">
+                    <ul class="flex gap-[40px] mr-20  ">
+                        <li class="text-red-600">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="hover:text-red-600 transition duration-150">
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="hover:text-red-600 transition duration-150">
+                            <a href="#process">Process</a>
+                        </li>
+                        <li class="hover:text-red-600 transition duration-150">
+                            <a href="#clients">Clients</a>
+                        </li>
+                        <li class="hover:text-red-600 transition duration-150">
+                            <a href="#office">About</a>
+                        </li>
+                        <li class="ml-80 hover:text-red-600 transition duration-150">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="page-1">
+
+        <div class="page-1-content">
+            <div class="header-text flex lg:max-w-7xl">
+                <p
+                    class="flex text-[55px] leading-tight font-semibold text-[#252837] my-35 mx-5 md:mb-[150px] lg:text-[78px] lg:font-bold lg:ml-25 selection:bg-[#EC1E64] selection:text-[#fff]">
+                    We are web agency based in Los Angeles, CA
+                </p>
+            </div>
+
+            <div class="main-text">
+                <p
+                    class="text-left relative text-[14px] px-3 -top-[65px] md:max-w-5xl lg:max-w-md lg:ml-20 lg:mt-20 selection:bg-[#EC1E64] selection:text-[#fff]">
+                    <span class="font-bold selection:bg-[#EC1E64] selection:text-[#fff]">Far far
+                        away, behind
+                        the word mountains</span>, far from the countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                    ocean.
+                </p>
+
+                <div class="list md:flex gap-[50px] justify-end items-center ">
+                    <ol class="mb-5 mt-[-50px] ml-3 md:flex md:flex-col md:-mt-[220px] md:mr-50 ">
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Technology</a></li>
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Marketing</a></li>
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Product & Design</a></li>
+                    </ol>
+                    <ol class="ml-3 md:flex md:flex-col md:-mt-[250px] md:mr-50">
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Strategic Consulting</a></li>
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Business Synergies</a></li>
+                        <li><a class="underline text-[#ec1e64] hover:no-underline" href="">Fundrising</a></li>
+                    </ol>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page-2 bg-[#F8F9FA] mt-[100px] mb-[100px] ">
+        <div class="header-text flex gap-[40px] px-[47px] py-[80px]">
+            <div class="flex w-13 h-1 bg-[#EC1E64] mt-6"><span class="flex"></span></div>
+            <p id="services"
+                class="flex text-5xl font-bold text-[#252837] selection:bg-[#EC1E64] selection:text-[#fff]">Services</p>
+        </div>
+
+        <div class="main-content  ">
+            <div class="text-button md:flex md:flex-col relative">
+                <p
+                    class="px-[45px] -mt-[60px] md:max-w-2xl md:realtive md:left-10 selection:bg-[#EC1E64] selection:text-[#fff]">
+                    <span class="font-bold ">Separated
+                        they live in
+                        Bookmarksgrove</span> right
+                    at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far
+                    from
+                    the countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+
+                <button
+                    class="uppercase p-[15px] w-30 bg-[#EC2266] text-[#fff] text-[11px] font-bold ml-10 mt-5 hover:bg-[#fff] hover:text-[#ec2266] hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] hover:active:scale-95 transition-all duration-200 md:flex">Get
+                    In touch</button>
+            </div>
+
+            <div class="main grid grid-cols-1 md:grid-cols-2 gap-10 mx-auto  mt-15 lg:px-25 max-w-6xl">
+                <div class="flex flex-col gap-4 mx-auto">
+                    <div class="img hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64]">
+                        <img class="w-full h-auto object-cover mb-3"
+                            src="https://preview.colorlib.com/theme/pageone/images/img_1.jpg" alt="designer girl">
+                    </div>
+                    <a class="cursor-pointer underline text-xl text-[#EC2266] hover:no-underline" href="">Graphic
+                        Design</a>
+                    <p class="mt-5 max-w-xl w-110 text-[14px] selection:bg-[#EC1E64] selection:text-[#fff] ">Separated
+                        they live in
+                        Bookmarksgrove right at the coast
+                        of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="img">
+                        <img class="w-full h-auto object-cover mb-2 img hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64]"
+                            src="https://preview.colorlib.com/theme/pageone/images/img_2.jpg" alt="designer girl">
+                    </div>
+                    <a class="cursor-pointer underline text-xl text-[#EC2266] hover:no-underline" href="">Web
+                        Development
+                    </a>
+                    <p class="mt-5 max-w-xl w-110 text-[14px] selection:bg-[#EC1E64] selection:text-[#fff] ">Separated
+                        they live in
+                        Bookmarksgrove right at the coast
+                        of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="img img hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64]"><img
+                            class="w-full h-auto object-cover mb-2"
+                            src="https://preview.colorlib.com/theme/pageone/images/img_3.jpg" alt="designer girl"></div>
+                    <a class="cursor-pointer underline text-xl text-[#EC2266] hover:no-underline" href="">Branding
+                    </a>
+                    <p class="mt-5 max-w-xl w-110 text-[14px] selection:bg-[#EC1E64] selection:text-[#fff] ">Separated
+                        they live in
+                        Bookmarksgrove right at the coast
+                        of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="flex flex-col gap-4 mb-[80px]">
+                    <div class="img img hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64]">
+                        <img class="w-full h-auto object-cover mb-2"
+                            src="https://preview.colorlib.com/theme/pageone/images/img_4.jpg" alt="designer girl">
+                    </div>
+                    <a class="cursor-pointer underline text-xl text-[#EC2266] hover:no-underline" href="">Iconography
+                    </a>
+                    <p class="mt-5 max-w-xl w-110 text-[14px] selection:bg-[#EC1E64] selection:text-[#fff] ">Separated
+                        they live in
+                        Bookmarksgrove right at the coast
+                        of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="clients" class="page-3 bg-[#F8F9FA] mt-[100px] mb-[100px] ">
+        <div class="header-text flex gap-[40px] px-[47px] py-[80px]">
+            <div class="flex w-13 h-1 bg-[#EC1E64] mt-6"><span class="flex"></span></div>
+            <p id="process"
+                class="flex text-5xl font-bold text-[#252837] w-full selection:bg-[#EC1E64] selection:text-[#fff]">Our
+                Processes</p>
+        </div>
+
+        <div class="main-content">
+            <div class="text-button md:flex md:flex-col relative">
+                <p
+                    class="px-[45px] -mt-[60px] md:max-w-2xl md:realtive md:left-10 text-[14px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                    <span class="font-bold selection:bg-[#EC1E64] selection:text-[#fff] ">Separated
+                        they live in
+                        Bookmarksgrove</span> right
+                    at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far
+                    from
+                    the countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+
+                <div class="flex gap-[50px]">
+                    <button
+                        class="process  uppercase p-[15px] w-30 bg-[#EC2266] text-[#fff] text-[11px] font-bold ml-10 mt-5 hover:bg-[#fff] hover:text-[#ec2266] hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] hover:active:scale-95 transition-all duration-200 md:flex gap-[30px]">Learn
+                        More </button>
+
+                    <a class="underline text-[#808080] mt-7 " href="#home">Scroll Down</a>
+                </div>
+            </div>
+
+            <div class="box grid grid-cols-1 px-5 md:grid-cols-3 gap-12 mx-auto  mt-15 lg:px-25">
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64] hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold selection:bg-[#EC1E64] selection:text-[#fff]">01</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Information Gathering</p>
+                    </div>
+                    <div class="box-main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff]">Far far away, behind the world
+                            mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64] hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold selection:bg-[#EC1E64] selection:text-[#fff]">02</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Planning </p>
+                    </div>
+                    <div class="box-main">
+                        <p class="">Far far away, behind the world mountains, far from the countries Vokalia and
+                            Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64]  hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold ">03</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] ">Design </p>
+                    </div>
+                    <div class="box-main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff]">Far far away, behind the world
+                            mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64]  hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold selection:bg-[#EC1E64] selection:text-[#fff] ">04</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Design </p>
+                    </div>
+                    <div class="box-main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff]">Far far away, behind the world
+                            mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64]  hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold selection:bg-[#EC1E64] selection:text-[#fff]">05</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Design </p>
+                    </div>
+                    <div class="box-main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff]">Far far away, behind the world
+                            mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+                <div
+                    class="box p-5 flex flex-col gap-4 mx-auto border-3 border-[#E5E7EB] hover:border-[#EC1E64]  hover:border-3">
+                    <div class="num">
+                        <p class="text-[#808080] font-bold selection:bg-[#EC1E64] selection:text-[#fff]">06</p>
+                    </div>
+                    <div class="box-header">
+                        <p class="text-[#EC1E64] font-bold text-[17px] selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Design </p>
+                    </div>
+                    <div class="box-main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff]">Far far away, behind the world
+                            mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="office" class="page-4 bg-[#212529] mt-[90px] mb-[90px] px-5 py-15 md:p-35">
+        <div class="md:flex gap-30px">
+            <div class="header-text flex gap-[30px] mb-[15px] ">
+                <div class="flex w-13 h-1 bg-[#EC1E64] mt-6 mb-[15px] mb-[20px]"><span class="flex"></span>
+                </div>
+                <p class="flex text-[#fff] text-4xl font-bold selection:bg-[#EC1E64] selection:text-[#fff]">Our
+                    Clients</p>
+            </div>
+            <div class="text-[13px] mb-[65px]">
+                <p class="text-[#fff] ml-0 md:ml-[150px] max-w-xl selection:bg-[#EC1E64] selection:text-[#fff]">
+                    <span class="font-bold text-[#fff]">Separated
+                        they live in
+                        Bookmarksgrove</span> right at the coast of
+                    the Semantics, a large language ocean. Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+            </div>
+
+
+        </div>
+        <div class="box md:flex md:gap-[30px] md:grid grid-cols-2 grid-rows-3 ">
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-40 mb-[30px]"
+                        src="https://preview.colorlib.com/theme/pageone/images/logo-goldline.png" alt="goldline logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Goldline</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff] ">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-40 mb-[30px]" src="https://preview.colorlib.com/theme/pageone/images/logo-foxhub.png"
+                        alt="foxhub logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Foxhub</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff] ">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-40 mb-[30px]" src="https://preview.colorlib.com/theme/pageone/images/logo-ideaa.png"
+                        alt="ideaa logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Ideaa</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff] ">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-47 mb-[30px]"
+                        src="https://preview.colorlib.com/theme/pageone/images/logo-nirastate.png" alt="nirastate logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Nirastate</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-40 mb-[30px]" src="https://preview.colorlib.com/theme/pageone/images/logo-treva.png"
+                        alt="treva logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Treva</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content-box bg-[#fff] px-5 py-7 mb-8">
+                <div class="logo">
+                    <img class="w-40 mb-[30px] selection:bg-[#EC1E64] selection:text-[#fff]"
+                        src="https://preview.colorlib.com/theme/pageone/images/logo-goldline.png" alt="goldline logo">
+                </div>
+                <div class="box-text">
+                    <div class="header-text">
+                        <p
+                            class="text-[#EC1E64] font-bold text-[18px] mb-2 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Goldline</p>
+                    </div>
+                    <div class="main-text">
+                        <p class="text-[#252837] text-[14px] mb-3 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Far far away, behind the word mountains,
+                            far from the countries Vokalia and Consonantia, There live the blind texts.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-5 bg-[#f8f9fa] px-7 pb-10 md:px-20 md:pb-24 md:py-10">
+        <div class="header md:px-20">
+            <div class="md:flex gap-30px">
+                <div class="header-text flex gap-[30px] mb-[15px] ">
+                    <div class="flex w-13 h-1 bg-[#EC1E64] mt-6 mb-[15px] mb-[20px]"><span class="flex "></span>
+                    </div>
+                    <p class="flex text-4xl font-bold selection:bg-[#EC1E64] selection:text-[#fff] md:text-5xl ">
+                        Features</p>
+                </div>
+                <div class="text-[13px] mb-[65px] md:ml-35 ">
+                    <p class="md:ml-0 md:ml-[150px] selection:bg-[#EC1E64] selection:text-[#fff]"><span
+                            class="font-bold selection:bg-[#EC1E64] selection:text-[#fff] md:text-[15px] ">Separated
+                            they live
+                            in
+                            Bookmarksgrove</span> right at the coast of
+                        the Semantics, a large language ocean. Far far away, behind the word mountains, far from
+                        the
+                        countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="content md:max-w-7xl">
+            <div class="boxes md:grid grid-cols-2 gap-[50px] md:px-50 max-w-7xl">
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i
+                            class="fa-solid fa-bezier-curve rotate-[-50deg] text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Illustration</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i class="fa-regular fa-comment-dots  text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            24/7 Support</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i class="fa-solid fa-gear text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff] ">
+                            Easy to use</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i class="fa-solid fa-desktop text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Web Development</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i class="fa-solid fa-paper-plane text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Intutive</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="box mt-20">
+                    <div class="icon">
+                        <i class="fa-solid fa-book text-6xl text-[#EC1E64] font-light mb-10"></i>
+                    </div>
+                    <div class="title">
+                        <p
+                            class="text-xl text-[#EC1E64] underline hover:no-underline mb-5 selection:bg-[#EC1E64] selection:text-[#fff]">
+                            Illustration</p>
+                    </div>
+                    <div class="main">
+                        <p class="selection:bg-[#EC1E64] selection:text-[#fff] text-[13px]">Far far away, behind
+                            the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                            roght at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-6 mt-10 px-7 pb-10 md:px-20 gap-[30px]">
+        <div class="header mb-10 md:px-20">
+            <div class="md:flex gap-30px">
+                <div class="header-text flex gap-[30px] mb-[15px] ">
+                    <div class="flex w-13 h-1 bg-[#EC1E64] mt-6 mb-[15px] mb-[20px]"><span class="flex "></span>
+                    </div>
+                    <p class="flex text-5xl font-bold selection:bg-[#EC1E64] selection:text-[#fff] md:text-5xl ">
+                        Office and team</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="content-main md:flex gap-[30px] md:px-0">
+            <div class="image  ">
+                <img class="mb-10 md:w-180 md:ml-13" src="https://preview.colorlib.com/theme/pageone/images/about_1.jpg"
+                    alt="office">
+            </div>
+            <div class=" md:px-15 md:py-25">
+                <div class="content-title mb-3 ">
+                    <p class="text-2xl text-[#252837] font-bold  md:text-3xl ">Our Office</p>
+                </div>
+                <div class="text-[13px] mb-[5px]  text-[13px] md:max-w-md">
+                    <p class="  selection:bg-[#EC1E64] selection:text-[#fff] mb-5"><span
+                            class="font-bold selection:bg-[#EC1E64] selection:text-[#fff] md:text-[15px] ">Separated
+                            they live in Bookmarksgrove</span> right at the coast of the Semantics, a large language
+                        ocean. Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia,
+                        there live the blind texts.</p>
+
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
+                        coast of the Semantics, a large language ocean.</p>
+
+                    <p class="mb-5">A small river named Duden flows by their place and supplies it with the
+                        necessary
+                        regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your
+                        mouth.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-35">
+            <div class="header">
+                <p class="text-3xl font-bold text-[#252837] mb-15 lg:px-8">Our Team</p>
+            </div>
+
+            <div class="boxes lg:grid lg:grid-cols-4 lg:gap-[30px] lg:px-8">
+                <div class="box mb-20">
+                    <div class="image hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64] ">
+                        <img src="https://preview.colorlib.com/theme/pageone/images/person_1.jpg" alt="Bradley Costa">
+                    </div>
+
+                    <div class="box-texts">
+                        <div class="box-title">
+                            <p class="text-[#ec1e64] text-xl underline hover:no-underline mt-5">Bradley Costa</p>
+                        </div>
+                        <div class="sub-title mt-2 text-[#00000080]  text-[15px]">
+                            <p>CEO, Partner</p>
+                        </div>
+                        <div class="main">
+                            <p class="mt-6 text-[15px]">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts. Separated they live in
+                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+
+                    <div class="box-icons mt-3 flex gap-1">
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-instagram text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-twitter text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-facebook text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-linkedin text-[#EC1E64] hover:text-[#fff]  "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box mb-20">
+                    <div class="image hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64] ">
+                        <img src="https://preview.colorlib.com/theme/pageone/images/person_2.jpg" alt="Bradley Costa">
+                    </div>
+
+                    <div class="box-texts">
+                        <div class="box-title">
+                            <p class="text-[#ec1e64] text-xl underline hover:no-underline mt-5">Bradley Costa</p>
+                        </div>
+                        <div class="sub-title mt-2 text-[#00000080]  text-[15px]">
+                            <p>CEO, Partner</p>
+                        </div>
+                        <div class="main">
+                            <p class="mt-6 text-[15px]">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts. Separated they live in
+                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+
+                    <div class="box-icons mt-3 flex gap-1">
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-instagram text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-twitter text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-facebook text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-linkedin text-[#EC1E64] hover:text-[#fff]  "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box mb-20">
+                    <div class="image hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64] ">
+                        <img src="https://preview.colorlib.com/theme/pageone/images/person_3.jpg" alt="Bradley Costa">
+                    </div>
+
+                    <div class="box-texts">
+                        <div class="box-title">
+                            <p class="text-[#ec1e64] text-xl underline hover:no-underline mt-5">Bradley Costa</p>
+                        </div>
+                        <div class="sub-title mt-2 text-[#00000080]  text-[15px]">
+                            <p>CEO, Partner</p>
+                        </div>
+                        <div class="main">
+                            <p class="mt-6 text-[15px]">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts. Separated they live in
+                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+
+                    <div class="box-icons mt-3 flex gap-1">
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-instagram text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-twitter text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-facebook text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-linkedin text-[#EC1E64] hover:text-[#fff]  "></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box mb-20">
+                    <div class="image hover:transition-all duration-300 hover:shadow-[15px_15px_0px_0px_#EC1E64] ">
+                        <img src="https://preview.colorlib.com/theme/pageone/images/person_4.jpg" alt="Bradley Costa">
+                    </div>
+
+                    <div class="box-texts">
+                        <div class="box-title">
+                            <p class="text-[#ec1e64] text-xl underline hover:no-underline mt-5">Bradley Costa</p>
+                        </div>
+                        <div class="sub-title mt-2 text-[#00000080]  text-[15px]">
+                            <p>CEO, Partner</p>
+                        </div>
+                        <div class="main">
+                            <p class="mt-6 text-[15px]">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts. Separated they live in
+                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                    </div>
+
+                    <div class="box-icons mt-3 flex gap-1">
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-instagram text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-twitter text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-facebook text-[#EC1E64] hover:text-[#fff]"></i>
+                        </div>
+                        <div
+                            class="border-3 rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] hover:bg-[#EC1E64] duration-150">
+                            <i class="fa-brands fa-linkedin text-[#EC1E64] hover:text-[#fff]  "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact" class="page-7 px-7 md:px-30">
+        <div class="header">
+            <div class="md:flex gap-30px">
+                <div class="header-text flex gap-[30px] mb-[15px] ">
+                    <div class="flex w-13 h-1 bg-[#EC1E64] mt-6 mb-[15px] mb-[20px]"><span class="flex "></span>
+                    </div>
+                    <p class="flex text-4xl font-bold selection:bg-[#EC1E64] selection:text-[#fff] md:text-5xl ">
+                        Contact Us</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="md:grid grid-cols-2 gap-[40px]">
+            <div class="forms mt-10 mb-10">
+                <form action="">
+                    <div class="names grid grid-cols-2">
+                        <div class="mb-4">
+                            <label for="name" class=" mb-2 text-gray-700 ">First Name</label>
+                            <input type="text" name="name" id="name"
+                                class=" px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#EC1E64] required">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="lname" class=" mb-2 text-gray-700 ">Last Name</label>
+                            <input type="text" name="lname" id="lname"
+                                class=" px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#EC1E64] required">
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <label for="email" class=" mb-2 text-gray-700 ">Email address</label>
+                        <input type="email" name="email" id="email"
+                            class=" w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#EC1E64] required">
+                    </div>
+
+                    <div class="message">
+                        <label for="message" class="mb-20 text-gray-700">Message</label>
+                        <textarea name="message" id="message"
+                            class="w-full h-[100px]  border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-[#EC1E64] resize-y"></textarea>
+                    </div>
+
+                    <button
+                        class="process  uppercase p-[15px] w-30 bg-[#EC2266] text-[#fff] text-[11px] font-bold  mt-5 hover:bg-[#fff] hover:text-[#ec2266] hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] hover:active:scale-95 transition-all duration-200 md:flex gap-[30px]">Send
+                        Message </button>
+
+                </form>
+            </div>
+
+            <div class="info mb-10 mt-13">
+                <div class="flex gap-[30px] mb-8">
+                    <div class="icon">
+                        <div class="border-1 rounded-full border-[#D3D3D3] w-15 h-15 flex items-center justify-center ">
+                            <i class="fa-solid fa-house-chimney text-[25px]"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="text-[18px]">155 Market St #101, Paterson, NJ 07505, United States</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-[30px] mb-8">
+                    <div class="icon">
+                        <div class="border-1 rounded-full border-[#D3D3D3] w-15 h-15 flex items-center justify-center ">
+                            <i class="fa-solid fa-phone text-[25px]"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="text-[18px]">+1 202 2020 200</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-[30px] mb-8">
+                    <div class="icon">
+                        <div class="border-1 rounded-full border-[#D3D3D3] w-15 h-15 flex items-center justify-center ">
+                            <i class="fa-solid fa-envelope text-[25px]"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="text-[18px]">
+                            @info@mydomain.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-8 mb-10">
+        <div class="map">
+            <iframe class="w-full  h-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.886075273399!2d-115.14332227474502!3d36.16932680667021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c3756f7ed4cd%3A0x635ecdf33186a67b!2sLas%20Vegas%20Boulevard%20at%20Fremont%20Street!5e0!3m2!1sen!2saz!4v1770463992340!5m2!1sen!2saz"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="footer px-7 mt-20 md:grid grid-cols-4 gap-[40px] md:px-20">
+        <div class="about">
+            <div class="title mb-5">
+                <p class="font-bold">About</p>
+            </div>
+            <div class="content">
+                <p class="text-[#808080] text-[14px] mb-5">Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="box-icons mt-3 mb-10 flex gap-1">
+                    <div class="rounded-full flex items-center justify-center w-10 h-10 bg-[#EC1E64] duration-150">
+                        <i class="fa-brands fa-instagram text-[#fff]"></i>
+                    </div>
+                    <div
+                        class="rounded-full flex items-center justify-center w-10 h-10 border-[#EC1E64] bg-[#EC1E64] duration-150">
+                        <i class="fa-brands fa-twitter text-[#fff]"></i>
+                    </div>
+                    <div class="rounded-full flex items-center justify-center w-10 h-10 bg-[#EC1E64] duration-150">
+                        <i class="fa-brands fa-facebook text-[#fff]"></i>
+                    </div>
+                    <div class="rounded-full flex items-center justify-center w-10 h-10 bg-[#EC1E64] duration-150">
+                        <i class="fa-brands fa-linkedin text-[#fff]  "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pages">
+            <div class="title">
+                <p class="font-bold mb-3">Pages</p>
+            </div>
+            <div class="mb-8">
+                <ol>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200" href="">Blog</a></li>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200">About</a></li>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200">Contact</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="resources">
+            <div class="title">
+                <p class="font-bold mb-3 ">Resources</p>
+            </div>
+            <div class="mb-8">
+                <ol>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200" href="">Blog</a></li>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200">About</a></li>
+                    <li><a class="text-[#808080] hover:text-[#000] duration-200">Contact</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="contact mb-[90px]">
+            <div class="title ">
+                <p class="font-bold mb-3">Contact</p>
+            </div>
+            <div class="content">
+                <div class="flex gap-[10px] align-center">
+                    <i class="fa-solid fa-envelope text-[#808080]"></i>
+                    <p class="text-[#808080] hover:text-[#000] duration-200">info@untree.co</p>
+                </div>
+                <div class="flex gap-[10px] align-center">
+                    <i class="fa-solid fa-phone text-[#808080]"></i>
+                    <p class="text-[#808080] hover:text-[#000] duration-200">+1 222 212 3819</p>
+                </div>
+                <div class="flex gap-[10px] align-center">
+                    <i class="fa-solid fa-location-dot text-[#808080]"></i>
+                    <p class="text-[#808080] hover:text-[#000] duration-200">43 Raymouth Rd. Baltemoer, London 3910</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="flex justify-center mb-[60px] ">
+            <p class="text-[#808080] mt-[60px]">Copyright ©2026 All rights reserved </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
